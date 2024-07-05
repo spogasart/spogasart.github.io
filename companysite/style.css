@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	margin: 0px;
+	padding: 15px;
+	background-color: #fafafa;
+}
+.outer{
+	text-align: center;
+	
+}
+.page{
+	background-color: white;
+	width: 1200px;
+	height: 100px;
+	display: inline-block;
+}
+
+.topofpage{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	height: 50px;
+	align-items: center;
+	
+}
+.LOGO{
+	max-width: 100px;
+	align-content: center;
+}
+.logo_img{
+	width: 50%;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+.search{
+	max-width: 100px;
+	align-content: flex-end;
+	margin-left: auto;
+	margin-right: 15px;
+	
+}
+.search_img{
+	width: 100%;
+	margin-top: 10px;
+}
+.navbar{
+	text-align: left;
+	font-family: sans-serif;
+}
+a{
+  color:black;
+  font-size:16px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right:50px;
+}
+
+a:hover {
+  color:red; 
+  text-decoration: underline;
+ }
+  a:active {
+  color:black;
+}
