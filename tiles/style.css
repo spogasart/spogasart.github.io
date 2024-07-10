@@ -1,0 +1,72 @@
+body{
+	margin:0;
+	padding:0;
+  background-color: #FFFFFF;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+
+}
+
+.outer{
+  text-align: center;
+}
+
+.page{
+	position:relative;
+	margin-top:0px;
+	background-color: white;
+  max-width:1200px;
+  width:100%;
+  height:100%;
+  display: inline-block;
+  text-align: left;
+  opacity: .7;
+}
+.navbar{
+	position:sticky;
+	Position: -webkit-sticky;
+	top: 0;
+	background-color:#f2f2f2;
+	height: 100px;
+	width: 100%;
+	z-index: 100;
+	opacity: .8;
+}
+.logo_img{
+	width: 5%;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+.tile{
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+	width:100%;
+}
+.tilebg1{
+	background-image: url("img/tile1.jpg");
+	
+}
+.tilebg2{
+	background-image: url("img/tile2.jpg");
+	
+}
+
+.tilebg3{
+	background-image: url("img/tile3.jpg");
+	
+}
+.tilebg4{
+	background-image: url("img/tile4.jpg");
+	
+}
+.tilebg5{
+	background-image: url("img/tile5.jpg");
+	
+}
+.tilebg6{
+	background-image: url("img/tile6.jpg");
+	
+}
