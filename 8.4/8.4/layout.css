@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	background-color: #FAFAFA
+}
+.outer{
+	text-align: center;
+}
+.page{
+  max-width: 1200px;
+  width: 100%;
+  display: inline-block;
+}
+
+.topnav{
+  background-color: #FFFFFF;
+  height:100px;
+  text-align: left;
+}
+
+.hero{
+	text-align: center;
+	
+}
+.hero img{
+	height: 90%;
+	
+}
+
+.hero:hover{
+	animation-fill-mode: forwards;
+	animation-name: changescale;
+	animation-duration: 3s;
+}
+
+@keyframes changescale{
+	from {transform: scale(1,1)}
+	to {transform: scale(1.75, 1.75)}
+}
+
+.blog_headline{
+	font-weight: bold;
+	font-size: 18px;
+	text-transform: uppercase;
+	margin-bottom: 0;
+	text-align: justify;
+}
+.blog{
+	font-size: 16px;
+	color: black;
+	width: 350px;
+	text-align: justify;
+	padding: 15px;
+	
+}
+.blog img{
+	float:left;
+	width: 100px;
+	padding-right: 10px;
+}
+
+.blog:last-of-type img {
+width: 350px;
+}
