@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Filters</title>
+
+	<style>
+     .my_filter{
+
+      -webkit-filter: drop-shadow:(100px) hue-rotate(0);
+		 
+      filter: drop-shadow(100px) hue-rotate(0);
+
+      
+
+     }
+
+
+
+
+
+    .my_filter:hover{
+
+      animation: 3s myfilteranimation forwards;
+	
+
+    }
+
+
+
+
+     @keyframes myfilteranimation{
+      
+	      100%{
+	       -webkit-filter: drop-shadow(30px 10px 4px #445509) hue-rotate(90deg);
+	        filter: drop-shadow(30px 10px 4px #445509) hue-rotate(90deg);
+	       }
+
+     }
+
+
+
+
+	</style>
+</head>
+<body>
+
+<img class="my_filter" src="img/flower.jpg" alt="flower">
+
+</body>
+</html>
